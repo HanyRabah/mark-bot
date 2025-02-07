@@ -1,6 +1,12 @@
+version: "3.1"
+
 language: "ar"
-pipeline: "supervised_embeddings"
+pipeline:
+- name: WhitespaceTokenizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
 policies:
-  - name: MemoizationPolicy
-  - name: KerasPolicy
-  - name: MappingPolicy
+- name: MemoizationPolicy
+- name: TEDPolicy
+- name: RulePolicy
+assistant_id: 20250207-183623-miniature-couple

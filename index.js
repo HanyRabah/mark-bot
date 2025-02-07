@@ -43,7 +43,7 @@ app.listen(port, () => {
 });
 
 // Rasa setup
-const rasaUrl = 'http://localhost:5005/webhooks/rest/webhook';
+const rasaUrl = 'https://web-production-9647.up.railway.app/webhooks/rest/webhook';
 
 async function getRasaResponse(text) {
     try {
