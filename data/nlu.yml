@@ -1,0 +1,12 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - مرحبا
+    - أهلا
+    - السلام عليكم
+- intent: goodbye
+  examples: |
+    - وداعا
+    - إلى اللقاء
+    - مع السلامة

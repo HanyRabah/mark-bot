@@ -1,0 +1,9 @@
+version: "2.0"
+intents:
+  - greet
+  - goodbye
+responses:
+  utter_greet:
+    - text: "مرحبا! كيف يمكنني مساعدتك؟"
+  utter_goodbye:
+    - text: "إلى اللقاء! أتمنى لك يوما سعيدا."
